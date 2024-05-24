@@ -10,13 +10,22 @@ export default function AppLite() {
         <ScrollView>
        <FlatCards />
        <ElevetedCard />
-       <FancyCard />
+       
+       <FancyCard /> 
         </ScrollView>
     </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
+
+  
+    // container:{
+    //     flex: 1,
+    //     flexDirection:'row',
+    //     padding: 8
+
+    // }
     
 })
 
