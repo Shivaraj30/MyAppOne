@@ -5,7 +5,7 @@ const ElevetedCard = () => {
   return (
     <View>
       <Text style={styles.HeadingText}>ElevetedCard</Text>
-      <ScrollView horizontal={true} style={styles.container}>
+      <ScrollView horizontal={true} style={styles.container} showsHorizontalScrollIndicator={false}>
         <View style={[styles.card, styles.Elevated]}>
             <Text>Tap</Text>
         </View>

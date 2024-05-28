@@ -8,7 +8,7 @@ const FancyCard = () => {
     <View>
       <Text style={styles.HeadingText}>Top Locations</Text>
 
-      <ScrollView horizontal={true}>
+      <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
       <View style={[styles.card, styles.Elevated]}>
         <Image source={{
           uri:'https://images.pexels.com/photos/19755053/pexels-photo-19755053/free-photo-of-red-fort-in-india.jpeg'}}

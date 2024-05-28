@@ -1,0 +1,20 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "em",
+    "framework": "react",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "Sample_FickleFlight_1",
+    "id": "6349641f842b4385469c620d",
+    "framework": "react",
+    "typescript": true,
+    "styling": "CSS Modules",
+    "naming": "Pascal Case",
+    "path": "public/",
+    "componentsPath": "/Users/shivarajm/Desktop/MyAppOne/components",
+    "screensPath": "/Users/shivarajm/Desktop/MyAppOne/ios/Pods/boost/boost/bimap/views"
+  }
+}
