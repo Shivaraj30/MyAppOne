@@ -85,17 +85,19 @@ const styles = StyleSheet.create({
       height:360,
       borderRadius:10,
       marginVertical:16,
-      marginHorizontal:12,
+      marginHorizontal:8,
 
     },
     Elevated:{
       backgroundColor : '#FFFFFF',
       elevation:5,
       shadowOffset:{
-        width:1,
-        height:1
-      },
-      shadowOpacity:0.5
+        width:0.5,
+        height:0.5
+    },
+    shadowColor: '#000000',
+    shadowOpacity :0.1,
+    shadowRadius: 5,
 
     },
     imageStyle:{

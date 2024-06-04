@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards'
 import ElevetedCard from './components/ElevetedCard'
 import FancyCard from './components/FancyCard'
 import ActionCard from './components/ActionCard'
+import ContactList from './components/ContactList'
 
 export default function AppLite() {
   return (
@@ -13,6 +14,7 @@ export default function AppLite() {
        <ElevetedCard />
        
        <FancyCard /> 
+       <ContactList />
        <ActionCard />
         </ScrollView>
     </SafeAreaView>
