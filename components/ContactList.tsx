@@ -35,27 +35,25 @@ const ContactList = () => {
     <View>
       <Text style={styles.HeadingText}>Contact List</Text>
       <ScrollView style={styles.container} scrollEnabled={false}>
+        {contacts.map(({uid,name,status,imageUrl}) => (
+          <View key={uid} style={styles.userCard}>
 
-        {contacts.map(({uid, name, status, imageUrl}) => (
-
-            <View key={uid} style={styles.userCard}>
-
-                <Image
-                source={{
-                    uri : imageUrl
-                }}
-                style={styles.imageStyle} />
-
-                <View>
-                    <Text style={styles.nameStyle}>{name}</Text>
-                    <Text style={styles.statusStyle}>{status}</Text>
-                </View>
+            <Image 
+            source={
+              {uri: imageUrl}
+            } style={styles.imageStyle}
+            />
+            <View>
+              <Text style={styles.nameStyle}>{name}</Text>
+              <Text style={styles.statusStyle}>{status}</Text>
             </View>
 
 
-        ))}
+          </View>
+        ) )}
 
       </ScrollView>
+     
     </View>
   )
 }
@@ -117,3 +115,28 @@ const styles = StyleSheet.create({
     }
     
 })
+
+
+
+ {/* <ScrollView style={styles.container} scrollEnabled={false}>
+
+        {contacts.map(({uid, name, status, imageUrl}) => (
+
+            <View key={uid} style={styles.userCard}>
+
+                <Image
+                source={{
+                    uri : imageUrl
+                }}
+                style={styles.imageStyle} />
+
+                <View>
+                    <Text style={styles.nameStyle}>{name}</Text>
+                    <Text style={styles.statusStyle}>{status}</Text>
+                </View>
+            </View>
+
+
+        ))}
+
+      </ScrollView> */}
